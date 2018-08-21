@@ -12,28 +12,33 @@ router.get("/", function(req, res) {
     });
 });
 
-router.post("/api/burgers", function(req, res) {
-    burgers.create([
+router.post("/", function(req, res) {
+    //api/burgers
+    burger.create([
         "burger_name", "devoured"    
     ], [req.body.burger_name, req.body.devoured
-    ], function(result) {
-        res.json({ id: result.inserId });
+    ], function() {
+        // res.json({ id: result.insertId });
+            res.redirect("/");
     });
 });
 
-router.put("/api/burgers/:id", function(req, res) {
+router.put("/:id", function(req, res) {
+    // /api/burgers/
     var condition = "id = " + req.params.id;
 
     console.log("condition", condition);
 
-    cat.update({
+    burger.update({
         devoured: req.body.devoured
-    }, condition, function(result) {
-        if (result.changedRows == 0) {
-            return res.status(404).end();
-        } else {
-            res.status(200).end();
-        }
+    }, condition, function() {
+        res.redirect("/");
+        // function(result)
+        // if (result.changedRows == 0) {
+        //     return res.status(404).end();
+        // } else {
+        //     res.status(200).end();
+        // }
     });
 });
 

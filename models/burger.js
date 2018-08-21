@@ -1,4 +1,4 @@
-var orm = require("../models/burger.js");
+var orm = require("../config/orm.js");
 
 var burger = {
     all: function(callback) {
@@ -13,7 +13,7 @@ var burger = {
         });
     },
 
-    update: function(objectColVals, condition, callback) {
+    update: function(objColVals, condition, callback) {
         orm.update("burgers", objColVals, condition, function(res) {
             callback(res);
         });

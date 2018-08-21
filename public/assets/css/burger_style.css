@@ -1,0 +1,84 @@
+body {
+    background: #a3c9f5;
+    background: -webkit-linear-gradient(to right, #0b8793, #a3c9f5);
+    /*Chrome 10-25, Safari 5.1-6*/
+    background: linear-gradient(to right, #0b8793, #a3c9f5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
+    color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+}
+
+li {
+    padding: 5px;
+    margin: 5px;
+    background: #ffffff;
+    list-style: none;
+  }
+  
+  /* ul {
+      list-style: none;
+  }
+   */
+  /* .label {
+    font-weight: bold;
+  } */
+  
+  .center {
+      text-align: center;
+  }
+  
+  .right {
+      align-content: right;
+  }
+  
+  img {
+      align-content: center;
+  }
+  
+  /* h1 {
+      text-align: center;
+  } */
+  
+  h1, h3, h4 {
+      text-align: center;
+  }
+  
+  .create-update-form {
+    padding: 25px;
+    margin: 25px;
+    background: #eceff1;
+    border: 1px black solid;
+  }
+  
+  .form-group {
+    margin-bottom: 25px;
+  }
+  
+  .btn-primary {
+      border-radius: 15px;
+  }
+  
+  html, body{
+      height: 100%;
+  }
+
+  /* body { 
+      background-image: url() ;
+      background-position: center center;
+      background-repeat:  no-repeat;
+      background-attachment: fixed;
+      background-size:  cover;
+      background-color: #000000;  
+  }
+  
+  div, body{
+      margin: 0;
+      padding: 0;
+      font-family: exo, sans-serif;
+      color: black;
+  } */
+
+  /* .wrapper {
+      height: 100%; 
+      width: 100%; 
+      } */

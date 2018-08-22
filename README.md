@@ -5,28 +5,28 @@
 
 
 >Files Created:
-    *burger
+    -burger
      * config
         * connection.js
         * orm.js    
-     * controllers
+     -controllers
         * burgers_controller.js
-     * db
+     -db
         * schema.sql   
         * seeds.sql
-     * models
+     -models
         * burger.js
-     * node_modules
-     * package.json
-     * public
+     -node_modules
+     -package.json
+     -public
         * assets 
           * css
             * burger_style.css
           * img
             * burger.png
           * test.html
-     * server.js
-     * views
+     -server.js
+     -views
         * index.handlebars
         * layouts
             * main.handlebars

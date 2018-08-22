@@ -14,30 +14,28 @@
         *burgers_controller.js
 
      -db:
-        *schema.sql   
+       *schema.sql   
         *seeds.sql
 
      -models:
-        *burger.js
+         *burger.js
 
      -public:
-        -assets: 
-           -css:
-             *burger_style.css
-          -img:
-            *burger.png
-          *test.html
-
+        -css:
+            *burger_style.css
+        -img:
+            *sprouts-burg.jpg
+        *test.html
+    
      -server.js
      
      -views:
         *index.handlebars
         -layouts:
             *main.handlebars
-
-     -node_modules
-     -package.json
-
+    
+    -node_modules
+    -package.json
 
 
 
